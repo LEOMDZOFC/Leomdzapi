@@ -1,0 +1,555 @@
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5007
+ * Running on http://164.92.134.31:5007
+Press CTRL+C to quit
+41.37.14.51 - - [02/Feb/2025 09:52:39] "GET /make_key?key=22 HTTP/1.1" 200 -
+41.37.14.51 - - [02/Feb/2025 09:52:39] "GET /favicon.ico HTTP/1.1" 404 -
+65.49.20.84 - - [02/Feb/2025 17:44:22] code 400, message Bad HTTP/0.9 request type ('W\x00\x00\x00\x00\x11\x11\x07\x00\x00ÿÿ\x03\x00\x00þ\x03\x00\x00\x14\x00')
+65.49.20.84 - - [02/Feb/2025 17:44:22] "W\x00\x00\x00\x00\x11\x11\x07\x00\x00ÿÿ\x03\x00\x00þ\x03\x00\x00\x14\x00\x1c\x08" HTTPStatus.BAD_REQUEST -
+57.129.64.237 - - [03/Feb/2025 04:36:58] code 400, message Bad request version ('À\x14À')
+57.129.64.237 - - [03/Feb/2025 04:36:58] "\x16\x03\x01\x00{\x01\x00\x00w\x03\x03>¼#\x13ägqù)on\x90ô?äæ±âI\x81\x93i=>?Æ2\x82îä ¼\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À" HTTPStatus.BAD_REQUEST -
+13.91.45.191 - - [03/Feb/2025 07:24:07] code 400, message Bad request syntax ('MGLNDD_164.92.134.31_5007')
+13.91.45.191 - - [03/Feb/2025 07:24:07] "MGLNDD_164.92.134.31_5007" HTTPStatus.BAD_REQUEST -
+185.226.197.38 - - [03/Feb/2025 08:42:21] "GET / HTTP/1.1" 404 -
+65.49.20.124 - - [03/Feb/2025 16:29:05] code 400, message Bad HTTP/0.9 request type ('W\x00\x00\x00\x00\x11\x11\x07\x00\x00ÿÿ\x03\x00\x00þ\x03\x00\x00\x14\x00')
+65.49.20.124 - - [03/Feb/2025 16:29:05] "W\x00\x00\x00\x00\x11\x11\x07\x00\x00ÿÿ\x03\x00\x00þ\x03\x00\x00\x14\x00\x1c\x08" HTTPStatus.BAD_REQUEST -
+172.168.155.8 - - [04/Feb/2025 05:29:04] code 400, message Bad request syntax ('MGLNDD_164.92.134.31_5007')
+172.168.155.8 - - [04/Feb/2025 05:29:04] "MGLNDD_164.92.134.31_5007" HTTPStatus.BAD_REQUEST -
+41.37.14.51 - - [04/Feb/2025 09:45:17] "GET /make_key?key=22 HTTP/1.1" 200 -
+41.37.14.51 - - [04/Feb/2025 09:45:18] "GET /favicon.ico HTTP/1.1" 404 -
+41.37.14.51 - - [04/Feb/2025 09:53:42] "GET /make_key?key=22 HTTP/1.1" 200 -
+41.37.14.51 - - [04/Feb/2025 09:53:43] "GET /favicon.ico HTTP/1.1" 404 -
+64.62.197.165 - - [04/Feb/2025 17:54:19] code 400, message Bad HTTP/0.9 request type ('W\x00\x00\x00\x00\x11\x11\x07\x00\x00ÿÿ\x03\x00\x00þ\x03\x00\x00\x14\x00')
+64.62.197.165 - - [04/Feb/2025 17:54:19] "W\x00\x00\x00\x00\x11\x11\x07\x00\x00ÿÿ\x03\x00\x00þ\x03\x00\x00\x14\x00\x1c\x08" HTTPStatus.BAD_REQUEST -
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:50066
+ * Running on http://164.92.134.31:50066
+Press CTRL+C to quit
+197.37.163.22 - - [04/Feb/2025 20:23:19] "GET /make_key?key=22 HTTP/1.1" 200 -
+197.37.163.22 - - [04/Feb/2025 20:23:19] "GET /favicon.ico HTTP/1.1" 404 -
+197.37.163.22 - - [04/Feb/2025 20:23:45] "GET /make_key?key=22 HTTP/1.1" 200 -
+197.37.163.22 - - [04/Feb/2025 20:23:48] "GET /favicon.ico HTTP/1.1" 404 -
+197.37.163.22 - - [04/Feb/2025 20:24:32] "GET /request?api_key=22&uid=2105543081 HTTP/1.1" 200 -
+197.37.163.22 - - [04/Feb/2025 20:24:33] "GET /favicon.ico HTTP/1.1" 404 -
+197.37.163.22 - - [04/Feb/2025 20:31:26] "GET /add_uid?uid=11031062048&time=60&type=days HTTP/1.1" 404 -
+197.37.163.22 - - [04/Feb/2025 20:31:27] "GET /favicon.ico HTTP/1.1" 404 -
+197.37.163.22 - - [04/Feb/2025 20:49:33] "GET /add_uid?uid=11031062048&time=60&type=days HTTP/1.1" 404 -
+197.37.163.22 - - [04/Feb/2025 20:49:34] "GET /add_uid?uid=11031062048&time=60&type=days HTTP/1.1" 404 -
+197.37.163.22 - - [04/Feb/2025 20:49:34] "GET /favicon.ico HTTP/1.1" 404 -
+164.92.134.31 - - [04/Feb/2025 20:55:02] "GET /request?api_key=22&uid=1189537889 HTTP/1.1" 200 -
+164.92.134.31 - - [04/Feb/2025 21:05:18] "GET /request?api_key=22&uid=1690444338 HTTP/1.1" 200 -
+164.92.134.31 - - [04/Feb/2025 21:06:32] "GET /request?api_key=22&uid=1812866480 HTTP/1.1" 200 -
+164.92.134.31 - - [04/Feb/2025 21:06:48] "GET /request?api_key=22&uid=2105543081 HTTP/1.1" 200 -
+164.92.134.31 - - [04/Feb/2025 22:00:51] "GET /request?api_key=22&uid=8983890078 HTTP/1.1" 200 -
+164.92.134.31 - - [04/Feb/2025 22:45:44] "GET /request?api_key=22&uid=9513117704 HTTP/1.1" 200 -
+164.92.134.31 - - [04/Feb/2025 22:47:20] "GET /request?api_key=22&uid=4011862323 HTTP/1.1" 200 -
+164.92.134.31 - - [04/Feb/2025 22:48:42] "GET /request?api_key=22&uid=1918681418 HTTP/1.1" 200 -
+164.92.134.31 - - [04/Feb/2025 22:49:15] "GET /request?api_key=22&uid=7229035080 HTTP/1.1" 200 -
+164.92.134.31 - - [04/Feb/2025 22:49:42] "GET /request?api_key=22&uid=7665081526 HTTP/1.1" 200 -
+164.92.134.31 - - [04/Feb/2025 22:54:53] "GET /request?api_key=22&uid=6712441304 HTTP/1.1" 200 -
+164.92.134.31 - - [04/Feb/2025 23:27:34] "GET /request?api_key=22&uid=8489774014 HTTP/1.1" 200 -
+164.92.134.31 - - [04/Feb/2025 23:28:26] "GET /request?api_key=22&uid=2365551380 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 02:26:40] "GET /request?api_key=22&uid=4732219759 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 02:27:08] "GET /request?api_key=22&uid=3652987813 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 02:27:21] "GET /request?api_key=22&uid=896910339 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 02:29:06] "GET /request?api_key=22&uid=2293241517 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 02:29:31] "GET /request?api_key=22&uid=1470877275 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 02:29:43] "GET /request?api_key=22&uid=599191349 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 02:30:46] "GET /request?api_key=22&uid=3127923673 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 02:30:57] "GET /request?api_key=22&uid=1782776065 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 02:31:12] "GET /request?api_key=22&uid=2631732199 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 02:31:49] "GET /request?api_key=22&uid=2074760069 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 02:33:12] "GET /request?api_key=22&uid=903623714 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 02:33:21] "GET /request?api_key=22&uid=7114742544 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 02:33:32] "GET /request?api_key=22&uid=6161536144 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 02:34:20] "GET /request?api_key=22&uid=1380968159 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 02:34:42] "GET /request?api_key=22&uid=2250337946 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 02:35:04] "GET /request?api_key=22&uid=6442158151 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 02:35:20] "GET /request?api_key=22&uid=1314356273 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 02:36:07] "GET /request?api_key=22&uid=6442867796 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 02:36:21] "GET /request?api_key=22&uid=2242776835 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 02:36:40] "GET /request?api_key=22&uid=374521675 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 02:46:36] "GET /request?api_key=22&uid=4855660322 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 02:48:24] "GET /request?api_key=22&uid=247191868 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 02:48:44] "GET /request?api_key=22&uid=6158838280 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 02:57:27] "GET /request?api_key=22&uid=2040273597 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 03:03:07] "GET /request?api_key=22&uid=2017746107 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 03:08:41] "GET /request?api_key=22&uid=1270860024 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 03:10:34] "GET /request?api_key=22&uid=2219643856 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 03:11:15] "GET /request?api_key=22&uid=7061212257 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 03:12:21] "GET /request?api_key=22&uid=3967814586 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 03:13:46] "GET /request?api_key=22&uid=1109331725 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 03:14:49] "GET /request?api_key=22&uid=1773127574 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 03:15:20] "GET /request?api_key=22&uid=257378054 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 03:15:42] "GET /request?api_key=22&uid=10318201497 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 03:16:30] "GET /request?api_key=22&uid=6503060275 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 03:18:09] "GET /request?api_key=22&uid=388783778 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 03:18:41] "GET /request?api_key=22&uid=202581150 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 03:18:51] "GET /request?api_key=22&uid=340881357 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 03:19:54] "GET /request?api_key=22&uid=987292782 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 03:22:27] "GET /request?api_key=22&uid=1788882420 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 03:24:15] "GET /request?api_key=22&uid=1769764206 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 03:25:16] "GET /request?api_key=22&uid=277418330 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 03:26:25] "GET /request?api_key=22&uid=3227548776 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 03:26:51] "GET /request?api_key=22&uid=7110539778 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 03:27:17] "GET /request?api_key=22&uid=1005985583 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 03:28:03] "GET /request?api_key=22&uid=7747138074 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 03:51:18] "GET /request?api_key=22&uid=3098068219 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 03:51:36] "GET /request?api_key=22&uid=2994187260 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 03:52:06] "GET /request?api_key=22&uid=4962703423 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 03:53:11] "GET /request?api_key=22&uid=2028163946 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 03:57:56] "GET /request?api_key=22&uid=6788465667 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 04:00:07] "GET /request?api_key=22&uid=1287329276 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 04:00:23] "GET /request?api_key=22&uid=328322553 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 04:00:34] "GET /request?api_key=22&uid=518216967 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 04:01:04] "GET /request?api_key=22&uid=2105543081 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 04:02:45] "GET /request?api_key=22&uid=925126024 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 07:38:10] "GET /request?api_key=22&uid=8965093860 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 07:46:58] "GET /request?api_key=22&uid=4111923208 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 07:52:34] "GET /request?api_key=22&uid=4111923208 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 08:17:42] "GET /request?api_key=22&uid=4111923208 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 08:35:59] "GET /request?api_key=22&uid=8901346068 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 08:53:14] "GET /request?api_key=22&uid=8406851651 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 08:54:44] "GET /request?api_key=22&uid=9904232088 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 08:55:28] "GET /request?api_key=22&uid=9805638658 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 09:06:55] "GET /request?api_key=22&uid=8501731076 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 09:07:15] "GET /request?api_key=22&uid=8501731076 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 09:07:34] "GET /request?api_key=22&uid=8501731076 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 09:07:40] "GET /request?api_key=22&uid=8501731076 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 09:07:49] "GET /request?api_key=22&uid=10193767389 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 09:08:00] "GET /request?api_key=22&uid=10193767389 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 09:08:07] "GET /request?api_key=22&uid=8501731076 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 09:08:44] "GET /request?api_key=22&uid=8501731076 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 10:20:23] "GET /request?api_key=22&uid=2997270241 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 11:55:31] "GET /request?api_key=22&uid=2680551376 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 11:57:43] "GET /request?api_key=22&uid=2184706822 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 12:25:27] "GET /request?api_key=22&uid=8501731076 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 12:25:38] "GET /request?api_key=22&uid=1887347128 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 12:25:58] "GET /request?api_key=22&uid=1887347128 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 12:27:32] "GET /request?api_key=22&uid=10726448397 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 12:28:13] "GET /request?api_key=22&uid=10726448397 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 12:32:27] "GET /request?api_key=22&uid=1799193987 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 12:32:51] "GET /request?api_key=22&uid=1111511871 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 12:38:35] "GET /request?api_key=22&uid=1189537889 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 12:42:38] "GET /request?api_key=22&uid=2184706822 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 13:06:45] "GET /request?api_key=22&uid=3942501031 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 13:23:31] "GET /request?api_key=22&uid=2067335706 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 14:19:19] "GET /request?api_key=22&uid=8308822214 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 15:13:13] "GET /request?api_key=22&uid=10726448397 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 15:14:31] "GET /request?api_key=22&uid=10726448397 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 15:15:47] "GET /request?api_key=22&uid=10726448397 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 15:37:37] "GET /request?api_key=22&uid=10726448397 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 15:47:06] "GET /request?api_key=22&uid=2013942174 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 15:58:22] "GET /request?api_key=22&uid=1870136239 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 16:34:00] "GET /request?api_key=22&uid=1685782944 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 16:39:49] "GET /request?api_key=22&uid=9462707691 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 16:44:50] "GET /request?api_key=22&uid=10726448397 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 16:45:06] "GET /request?api_key=22&uid=10726448397 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 17:25:05] "GET /request?api_key=22&uid=8274234144 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 18:20:20] "GET /request?api_key=22&uid=10726448397 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 18:20:42] "GET /request?api_key=22&uid=1712656538 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 18:22:52] "GET /request?api_key=22&uid=1712656538 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 18:23:49] "GET /request?api_key=22&uid=1712656538 HTTP/1.1" 200 -
+184.105.139.119 - - [05/Feb/2025 18:32:22] code 400, message Bad HTTP/0.9 request type ('W\x00\x00\x00\x00\x11\x11\x07\x00\x00ÿÿ\x03\x00\x00þ\x03\x00\x00\x14\x00')
+184.105.139.119 - - [05/Feb/2025 18:32:22] "W\x00\x00\x00\x00\x11\x11\x07\x00\x00ÿÿ\x03\x00\x00þ\x03\x00\x00\x14\x00\x1c\x08" HTTPStatus.BAD_REQUEST -
+164.92.134.31 - - [05/Feb/2025 18:36:41] "GET /request?api_key=22&uid=8974119682 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 19:40:16] "GET /request?api_key=22&uid=2301621322 HTTP/1.1" 200 -
+92.255.57.128 - - [05/Feb/2025 20:52:43] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+92.255.57.128 - - [05/Feb/2025 20:52:43] "\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr" HTTPStatus.BAD_REQUEST -
+164.92.134.31 - - [05/Feb/2025 21:22:21] "GET /request?api_key=22&uid=1801464099 HTTP/1.1" 200 -
+4.156.236.59 - - [05/Feb/2025 21:24:04] code 400, message Bad request syntax ('MGLNDD_164.92.134.31_5007')
+4.156.236.59 - - [05/Feb/2025 21:24:04] "MGLNDD_164.92.134.31_5007" HTTPStatus.BAD_REQUEST -
+164.92.134.31 - - [05/Feb/2025 21:51:26] "GET /request?api_key=22&uid=10726448397 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 21:52:09] "GET /request?api_key=22&uid=10726448397 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 21:55:35] "GET /request?api_key=22&uid=4111923208 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 23:47:08] "GET /request?api_key=22&uid=1266693213 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 23:47:37] "GET /request?api_key=22&uid=1266693213 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 23:48:01] "GET /request?api_key=22&uid=1266693213 HTTP/1.1" 200 -
+164.92.134.31 - - [05/Feb/2025 23:56:57] "GET /request?api_key=22&uid=6158838280 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 00:06:33] "GET /request?api_key=22&uid=1712656538 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 00:08:17] "GET /request?api_key=22&uid=10726448397 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 01:07:27] "GET /request?api_key=22&uid=469244757 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 01:08:35] "GET /request?api_key=22&uid=2259530798 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 02:45:55] "GET /request?api_key=22&uid=6669265996 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 02:46:20] "GET /request?api_key=22&uid=1527639321 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 02:47:20] "GET /request?api_key=22&uid=3177507587 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 03:10:45] "GET /request?api_key=22&uid=1777061283 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 03:11:33] "GET /request?api_key=22&uid=2453445905 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 03:11:45] "GET /request?api_key=22&uid=1568803316 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 03:13:50] "GET /request?api_key=22&uid=32973583 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 03:14:51] "GET /request?api_key=22&uid=7172353064 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 03:15:18] "GET /request?api_key=22&uid=862789325 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 05:46:25] "GET /request?api_key=22&uid=4274230817 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 05:49:01] "GET /request?api_key=22&uid=8784017287 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 08:34:08] "GET /request?api_key=22&uid=9817814126 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 08:36:08] "GET /request?api_key=22&uid=2176538079 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 08:37:11] "GET /request?api_key=22&uid=10927981372 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 08:38:08] "GET /request?api_key=22&uid=1944209578 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 08:38:58] "GET /request?api_key=22&uid=1975451299 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 08:41:39] "GET /request?api_key=22&uid=3086048607 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 08:46:17] "GET /request?api_key=22&uid=9960776824 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 08:50:37] "GET /request?api_key=22&uid=9960776824 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 08:52:43] "GET /request?api_key=22&uid=2945460196 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 09:07:21] "GET /request?api_key=22&uid=9479467480 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 09:09:22] "GET /request?api_key=22&uid=7763702526 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 09:10:15] "GET /request?api_key=22&uid=8144905419 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 09:28:52] "GET /request?api_key=22&uid=1826781090 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 09:32:34] "GET /request?api_key=22&uid=12345678 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 09:49:06] "GET /request?api_key=22&uid=10710117922 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 09:52:49] "GET /request?api_key=22&uid=4208755685 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 09:53:52] "GET /request?api_key=22&uid=711911094 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 09:56:33] "GET /request?api_key=22&uid=9827335371 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 09:56:52] "GET /request?api_key=22&uid=9827335371 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 09:57:37] "GET /request?api_key=22&uid=9827335371 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 09:59:31] "GET /request?api_key=22&uid=10710117922 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 10:12:13] "GET /request?api_key=22&uid=10726448397 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 10:14:06] "GET /request?api_key=22&uid=9827335371 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 10:14:23] "GET /request?api_key=22&uid=9827335371 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 10:24:44] "GET /request?api_key=22&uid=2452792855 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 10:26:00] "GET /request?api_key=22&uid=4208755685 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 10:26:48] "GET /request?api_key=22&uid=9827335371 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 10:26:57] "GET /request?api_key=22&uid=9827335371 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 10:47:01] "GET /request?api_key=22&uid=4208755685 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 11:02:01] "GET /request?api_key=22&uid=1553032109 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 11:02:32] "GET /request?api_key=22&uid=1553032109 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 11:19:04] "GET /request?api_key=22&uid=5861575143 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 11:19:28] "GET /request?api_key=22&uid=4208755685 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 11:21:43] "GET /request?api_key=22&uid=4208755685 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 12:06:36] "GET /request?api_key=22&uid=10862762768 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 13:14:48] "GET /request?api_key=22&uid=5725000284 HTTP/1.1" 200 -
+64.62.197.199 - - [06/Feb/2025 13:23:30] code 400, message Bad HTTP/0.9 request type ('W\x00\x00\x00\x00\x11\x11\x07\x00\x00ÿÿ\x03\x00\x00þ\x03\x00\x00\x14\x00')
+64.62.197.199 - - [06/Feb/2025 13:23:30] "W\x00\x00\x00\x00\x11\x11\x07\x00\x00ÿÿ\x03\x00\x00þ\x03\x00\x00\x14\x00\x1c\x08" HTTPStatus.BAD_REQUEST -
+164.92.134.31 - - [06/Feb/2025 13:49:11] "GET /request?api_key=22&uid=11043397661 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 13:49:49] "GET /request?api_key=22&uid=11045166551 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 13:51:04] "GET /request?api_key=22&uid=11045166551 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 13:51:28] "GET /request?api_key=22&uid=11045166551 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 14:04:23] "GET /request?api_key=22&uid=6638087896 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 14:04:40] "GET /request?api_key=22&uid=6638087896 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 15:23:03] "GET /request?api_key=22&uid=1189537889 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 17:27:45] "GET /request?api_key=22&uid=10726448397 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 17:33:11] "GET /request?api_key=22&uid=10710117922 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 17:33:37] "GET /request?api_key=22&uid=10710117922 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 17:37:07] "GET /request?api_key=22&uid=10710117922 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 17:41:10] "GET /request?api_key=22&uid=2259530798 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 17:41:26] "GET /request?api_key=22&uid=2259530798 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 17:43:11] "GET /request?api_key=22&uid=2398590963 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 17:43:30] "GET /request?api_key=22&uid=2398590963 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 18:14:39] "GET /request?api_key=22&uid=10726448397 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 18:37:31] "GET /request?api_key=22&uid=9988649058 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 18:38:17] "GET /request?api_key=22&uid=1968445774 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 18:39:11] "GET /request?api_key=22&uid=1968445774 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 18:39:46] "GET /request?api_key=22&uid=2527964965 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 19:08:05] "GET /request?api_key=22&uid=10726448397 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 19:27:21] "GET /request?api_key=22&uid=1662932037 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 19:30:55] "GET /request?api_key=22&uid=1801464099 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 19:44:06] "GET /request?api_key=22&uid=2259530798 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 20:06:20] "GET /request?api_key=22&uid=10726448397 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 20:45:33] "GET /request?api_key=22&uid=2055347422 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 21:21:11] "GET /request?api_key=22&uid=4111923208 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 21:25:36] "GET /request?api_key=22&uid=858011549 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 22:10:16] "GET /request?api_key=22&uid=1154411616 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 22:31:34] "GET /request?api_key=22&uid=199974262 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 22:31:43] "GET /request?api_key=22&uid=199974262 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 22:32:12] "GET /request?api_key=22&uid=199974262 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 22:33:40] "GET /request?api_key=22&uid=199974262 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 22:34:43] "GET /request?api_key=22&uid=7114742544 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 22:35:01] "GET /request?api_key=22&uid=7114742544 HTTP/1.1" 200 -
+164.92.134.31 - - [06/Feb/2025 23:35:28] "GET /request?api_key=22&uid=2330036667 HTTP/1.1" 200 -
+164.92.134.31 - - [07/Feb/2025 00:01:00] "GET /request?api_key=22&uid=1609862751 HTTP/1.1" 200 -
+164.92.134.31 - - [07/Feb/2025 00:07:14] "GET /request?api_key=22&uid=10726448397 HTTP/1.1" 200 -
+164.92.134.31 - - [07/Feb/2025 05:06:11] "GET /request?api_key=22&uid=900559742 HTTP/1.1" 200 -
+164.92.134.31 - - [07/Feb/2025 05:06:24] "GET /request?api_key=22&uid=2911577379 HTTP/1.1" 200 -
+164.92.134.31 - - [07/Feb/2025 05:06:35] "GET /request?api_key=22&uid=829688154 HTTP/1.1" 200 -
+164.92.134.31 - - [07/Feb/2025 09:51:18] "GET /request?api_key=22&uid=10726448397 HTTP/1.1" 200 -
+164.92.134.31 - - [07/Feb/2025 11:06:15] "GET /request?api_key=22&uid=11036633006 HTTP/1.1" 200 -
+164.92.134.31 - - [07/Feb/2025 12:12:45] "GET /request?api_key=22&uid=3699944396 HTTP/1.1" 200 -
+172.206.141.170 - - [07/Feb/2025 12:49:32] code 400, message Bad request syntax ('MGLNDD_164.92.134.31_5007')
+172.206.141.170 - - [07/Feb/2025 12:49:32] "MGLNDD_164.92.134.31_5007" HTTPStatus.BAD_REQUEST -
+164.92.134.31 - - [07/Feb/2025 14:10:06] "GET /request?api_key=22&uid=9811661729 HTTP/1.1" 200 -
+164.92.134.31 - - [07/Feb/2025 14:15:46] "GET /request?api_key=22&uid=2780630897 HTTP/1.1" 200 -
+164.92.134.31 - - [07/Feb/2025 14:21:06] "GET /request?api_key=22&uid=1622323694 HTTP/1.1" 200 -
+164.92.134.31 - - [07/Feb/2025 14:21:20] "GET /request?api_key=22&uid=1622323694 HTTP/1.1" 200 -
+164.92.134.31 - - [07/Feb/2025 14:21:29] "GET /request?api_key=22&uid=1622323694 HTTP/1.1" 200 -
+164.92.134.31 - - [07/Feb/2025 14:21:40] "GET /request?api_key=22&uid=1622323694 HTTP/1.1" 200 -
+164.92.134.31 - - [07/Feb/2025 14:34:31] "GET /request?api_key=22&uid=2600664444 HTTP/1.1" 200 -
+164.92.134.31 - - [07/Feb/2025 14:34:56] "GET /request?api_key=22&uid=2102964322 HTTP/1.1" 200 -
+164.92.134.31 - - [07/Feb/2025 14:47:20] "GET /request?api_key=22&uid=9253674730 HTTP/1.1" 200 -
+164.92.134.31 - - [07/Feb/2025 14:47:44] "GET /request?api_key=22&uid=9253674730 HTTP/1.1" 200 -
+164.92.134.31 - - [07/Feb/2025 14:54:40] "GET /request?api_key=22&uid=9253674730 HTTP/1.1" 200 -
+164.92.134.31 - - [07/Feb/2025 15:14:31] "GET /request?api_key=22&uid=10726448397 HTTP/1.1" 200 -
+164.92.134.31 - - [07/Feb/2025 15:14:58] "GET /request?api_key=22&uid=10726448397 HTTP/1.1" 200 -
+164.92.134.31 - - [07/Feb/2025 15:17:41] "GET /request?api_key=22&uid=2470020564 HTTP/1.1" 200 -
+164.92.134.31 - - [07/Feb/2025 15:21:52] "GET /request?api_key=22&uid=2064084194 HTTP/1.1" 200 -
+164.92.134.31 - - [07/Feb/2025 17:27:10] "GET /request?api_key=22&uid=1801464099 HTTP/1.1" 200 -
+65.49.1.11 - - [07/Feb/2025 18:58:27] code 400, message Bad HTTP/0.9 request type ('W\x00\x00\x00\x00\x11\x11\x07\x00\x00ÿÿ\x03\x00\x00þ\x03\x00\x00\x14\x00')
+65.49.1.11 - - [07/Feb/2025 18:58:27] "W\x00\x00\x00\x00\x11\x11\x07\x00\x00ÿÿ\x03\x00\x00þ\x03\x00\x00\x14\x00\x1c\x08" HTTPStatus.BAD_REQUEST -
+164.92.134.31 - - [07/Feb/2025 19:09:53] "GET /request?api_key=22&uid=9811661729 HTTP/1.1" 200 -
+164.92.134.31 - - [07/Feb/2025 19:40:57] "GET /request?api_key=22&uid=12345678 HTTP/1.1" 200 -
+164.92.134.31 - - [07/Feb/2025 19:50:40] "GET /request?api_key=22&uid=6727992906 HTTP/1.1" 200 -
+164.92.134.31 - - [07/Feb/2025 21:35:31] "GET /request?api_key=22&uid=2600664444 HTTP/1.1" 200 -
+164.92.134.31 - - [07/Feb/2025 21:36:01] "GET /request?api_key=22&uid=2600664444 HTTP/1.1" 200 -
+164.92.134.31 - - [07/Feb/2025 21:36:12] "GET /request?api_key=22&uid=2600664444 HTTP/1.1" 200 -
+164.92.134.31 - - [07/Feb/2025 21:36:46] "GET /request?api_key=22&uid=2398590963 HTTP/1.1" 200 -
+164.92.134.31 - - [07/Feb/2025 21:37:23] "GET /request?api_key=22&uid=1706789253 HTTP/1.1" 200 -
+164.92.134.31 - - [07/Feb/2025 22:14:06] "GET /request?api_key=22&uid=8559019460 HTTP/1.1" 200 -
+164.92.134.31 - - [07/Feb/2025 23:08:48] "GET /request?api_key=22&uid=1704158998 HTTP/1.1" 200 -
+164.92.134.31 - - [07/Feb/2025 23:09:36] "GET /request?api_key=22&uid=1844418357 HTTP/1.1" 200 -
+164.92.134.31 - - [07/Feb/2025 23:09:55] "GET /request?api_key=22&uid=554102472 HTTP/1.1" 200 -
+164.92.134.31 - - [07/Feb/2025 23:15:32] "GET /request?api_key=22&uid=274681719 HTTP/1.1" 200 -
+164.92.134.31 - - [07/Feb/2025 23:47:15] "GET /request?api_key=22&uid=12345678 HTTP/1.1" 200 -
+164.92.134.31 - - [08/Feb/2025 01:24:32] "GET /request?api_key=22&uid=603983490 HTTP/1.1" 200 -
+164.92.134.31 - - [08/Feb/2025 01:27:11] "GET /request?api_key=22&uid=603983490 HTTP/1.1" 200 -
+164.92.134.31 - - [08/Feb/2025 02:44:44] "GET /request?api_key=22&uid=992895004 HTTP/1.1" 200 -
+164.92.134.31 - - [08/Feb/2025 03:17:51] "GET /request?api_key=22&uid=790613607 HTTP/1.1" 200 -
+164.92.134.31 - - [08/Feb/2025 03:18:33] "GET /request?api_key=22&uid=1436895357 HTTP/1.1" 200 -
+164.92.134.31 - - [08/Feb/2025 03:24:09] "GET /request?api_key=22&uid=2860625081 HTTP/1.1" 200 -
+164.92.134.31 - - [08/Feb/2025 03:24:30] "GET /request?api_key=22&uid=1756031438 HTTP/1.1" 200 -
+164.92.134.31 - - [08/Feb/2025 03:24:49] "GET /request?api_key=22&uid=1571757797 HTTP/1.1" 200 -
+164.92.134.31 - - [08/Feb/2025 03:28:37] "GET /request?api_key=22&uid=2194015332 HTTP/1.1" 200 -
+164.92.134.31 - - [08/Feb/2025 03:33:02] "GET /request?api_key=22&uid=7642439135 HTTP/1.1" 200 -
+164.92.134.31 - - [08/Feb/2025 04:00:30] "GET /request?api_key=22&uid=1945765894 HTTP/1.1" 200 -
+164.92.134.31 - - [08/Feb/2025 08:53:28] "GET /request?api_key=22&uid=10028723612 HTTP/1.1" 200 -
+164.92.134.31 - - [08/Feb/2025 08:54:58] "GET /request?api_key=22&uid=10028723612 HTTP/1.1" 200 -
+164.92.134.31 - - [08/Feb/2025 08:56:15] "GET /request?api_key=22&uid=10028723612 HTTP/1.1" 200 -
+164.92.134.31 - - [08/Feb/2025 08:56:52] "GET /request?api_key=22&uid=10028723612 HTTP/1.1" 200 -
+164.92.134.31 - - [08/Feb/2025 09:02:00] "GET /request?api_key=22&uid=2045737265 HTTP/1.1" 200 -
+164.92.134.31 - - [08/Feb/2025 09:02:34] "GET /request?api_key=22&uid=3019170459 HTTP/1.1" 200 -
+164.92.134.31 - - [08/Feb/2025 09:03:04] "GET /request?api_key=22&uid=4874982549 HTTP/1.1" 200 -
+164.92.134.31 - - [08/Feb/2025 12:18:39] "GET /request?api_key=22&uid=8080314852 HTTP/1.1" 200 -
+164.92.134.31 - - [08/Feb/2025 12:26:41] "GET /request?api_key=22&uid=8643268240 HTTP/1.1" 200 -
+164.92.134.31 - - [08/Feb/2025 16:53:33] "GET /request?api_key=22&uid=10853443433 HTTP/1.1" 200 -
+64.62.156.13 - - [08/Feb/2025 17:32:59] code 400, message Bad HTTP/0.9 request type ('W\x00\x00\x00\x00\x11\x11\x07\x00\x00ÿÿ\x03\x00\x00þ\x03\x00\x00\x14\x00')
+64.62.156.13 - - [08/Feb/2025 17:32:59] "W\x00\x00\x00\x00\x11\x11\x07\x00\x00ÿÿ\x03\x00\x00þ\x03\x00\x00\x14\x00\x1c\x08" HTTPStatus.BAD_REQUEST -
+164.92.134.31 - - [08/Feb/2025 17:35:52] "GET /request?api_key=22&uid=1189537889 HTTP/1.1" 200 -
+164.92.134.31 - - [08/Feb/2025 19:10:48] "GET /request?api_key=22&uid=1189537889 HTTP/1.1" 200 -
+164.92.134.31 - - [08/Feb/2025 19:11:06] "GET /request?api_key=22&uid=1189537889 HTTP/1.1" 200 -
+164.92.134.31 - - [08/Feb/2025 19:11:14] "GET /request?api_key=22&uid=1189537889 HTTP/1.1" 200 -
+164.92.134.31 - - [08/Feb/2025 19:11:21] "GET /request?api_key=22&uid=1189537889 HTTP/1.1" 200 -
+164.92.134.31 - - [08/Feb/2025 19:11:27] "GET /request?api_key=22&uid=1189537889 HTTP/1.1" 200 -
+164.92.134.31 - - [08/Feb/2025 19:43:41] "GET /request?api_key=22&uid=7114742544 HTTP/1.1" 200 -
+164.92.134.31 - - [08/Feb/2025 20:23:07] "GET /request?api_key=22&uid=2045737265 HTTP/1.1" 200 -
+164.92.134.31 - - [08/Feb/2025 20:28:30] "GET /request?api_key=22&uid=2188058957 HTTP/1.1" 200 -
+164.92.134.31 - - [08/Feb/2025 20:28:50] "GET /request?api_key=22&uid=2188058957 HTTP/1.1" 200 -
+164.92.134.31 - - [08/Feb/2025 20:29:04] "GET /request?api_key=22&uid=2188058957 HTTP/1.1" 200 -
+164.92.134.31 - - [08/Feb/2025 20:29:26] "GET /request?api_key=22&uid=7786383950 HTTP/1.1" 200 -
+164.92.134.31 - - [08/Feb/2025 20:42:41] "GET /request?api_key=22&uid=2045737265 HTTP/1.1" 200 -
+164.92.134.31 - - [08/Feb/2025 20:42:54] "GET /request?api_key=22&uid=4874982549 HTTP/1.1" 200 -
+164.92.134.31 - - [08/Feb/2025 21:40:09] "GET /request?api_key=22&uid=9410574108 HTTP/1.1" 200 -
+164.92.134.31 - - [08/Feb/2025 22:30:58] "GET /request?api_key=22&uid=9577777831 HTTP/1.1" 200 -
+69.235.150.62 - - [08/Feb/2025 23:30:32] code 400, message Bad HTTP/0.9 request type ('W\x00\x00\x00\x00\x11\x11\x07\x00\x00ÿÿ\x03\x00\x00þ\x03\x00\x00\x14\x00')
+69.235.150.62 - - [08/Feb/2025 23:30:32] "W\x00\x00\x00\x00\x11\x11\x07\x00\x00ÿÿ\x03\x00\x00þ\x03\x00\x00\x14\x00\x1c\x08" HTTPStatus.BAD_REQUEST -
+172.169.107.189 - - [09/Feb/2025 04:15:36] code 400, message Bad request syntax ('MGLNDD_164.92.134.31_5007')
+172.169.107.189 - - [09/Feb/2025 04:15:36] "MGLNDD_164.92.134.31_5007" HTTPStatus.BAD_REQUEST -
+164.92.134.31 - - [09/Feb/2025 05:05:31] "GET /request?api_key=22&uid=2105543081 HTTP/1.1" 200 -
+164.92.134.31 - - [09/Feb/2025 07:27:56] "GET /request?api_key=22&uid=650030545 HTTP/1.1" 200 -
+164.92.134.31 - - [09/Feb/2025 07:28:53] "GET /request?api_key=22&uid=2105543081 HTTP/1.1" 200 -
+185.242.226.52 - - [09/Feb/2025 08:28:43] code 400, message Bad HTTP/0.9 request type ('W\x00\x00\x00\x00\x11\x11\x07\x00\x00ÿÿ\x03\x00\x00þ\x03\x00\x00\x14\x00')
+185.242.226.52 - - [09/Feb/2025 08:28:43] "W\x00\x00\x00\x00\x11\x11\x07\x00\x00ÿÿ\x03\x00\x00þ\x03\x00\x00\x14\x00\x1c\x08" HTTPStatus.BAD_REQUEST -
+185.242.226.52 - - [09/Feb/2025 08:55:58] "GET / HTTP/1.1" 404 -
+164.92.134.31 - - [09/Feb/2025 09:50:22] "GET /request?api_key=22&uid=8308911346 HTTP/1.1" 200 -
+164.92.134.31 - - [09/Feb/2025 10:00:26] "GET /request?api_key=22&uid=1825258167 HTTP/1.1" 200 -
+164.92.134.31 - - [09/Feb/2025 10:00:39] "GET /request?api_key=22&uid=1825258167 HTTP/1.1" 200 -
+164.92.134.31 - - [09/Feb/2025 10:04:11] "GET /request?api_key=22&uid=2316068851 HTTP/1.1" 200 -
+164.92.134.31 - - [09/Feb/2025 10:04:44] "GET /request?api_key=22&uid=2316068851 HTTP/1.1" 200 -
+164.92.134.31 - - [09/Feb/2025 10:18:44] "GET /request?api_key=22&uid=10326991410 HTTP/1.1" 200 -
+164.92.134.31 - - [09/Feb/2025 10:20:09] "GET /request?api_key=22&uid=3924850564 HTTP/1.1" 200 -
+164.92.134.31 - - [09/Feb/2025 11:54:05] "GET /request?api_key=22&uid=645655446 HTTP/1.1" 200 -
+164.92.134.31 - - [09/Feb/2025 11:54:28] "GET /request?api_key=22&uid=922443904 HTTP/1.1" 200 -
+164.92.134.31 - - [09/Feb/2025 17:08:09] "GET /request?api_key=22&uid=4610580631 HTTP/1.1" 200 -
+216.218.206.109 - - [09/Feb/2025 18:32:02] code 400, message Bad HTTP/0.9 request type ('W\x00\x00\x00\x00\x11\x11\x07\x00\x00ÿÿ\x03\x00\x00þ\x03\x00\x00\x14\x00')
+216.218.206.109 - - [09/Feb/2025 18:32:02] "W\x00\x00\x00\x00\x11\x11\x07\x00\x00ÿÿ\x03\x00\x00þ\x03\x00\x00\x14\x00\x1c\x08" HTTPStatus.BAD_REQUEST -
+178.79.139.171 - - [09/Feb/2025 19:15:38] "GET / HTTP/1.0" 404 -
+178.79.139.171 - - [09/Feb/2025 19:15:38] "OPTIONS / HTTP/1.0" 404 -
+178.79.139.171 - - [09/Feb/2025 19:15:38] code 400, message Bad request version ('RTSP/1.0')
+178.79.139.171 - - [09/Feb/2025 19:15:38] "OPTIONS / RTSP/1.0" HTTPStatus.BAD_REQUEST -
+178.79.139.171 - - [09/Feb/2025 19:15:46] code 400, message Bad request version ('\x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+178.79.139.171 - - [09/Feb/2025 19:15:46] "\x80\x00\x00(rþ\x1d\x13\x00\x00\x00\x00\x00\x00\x00\x02\x00\x01\x86 \x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00" HTTPStatus.BAD_REQUEST -
+178.79.139.171 - - [09/Feb/2025 19:15:52] code 400, message Bad HTTP/0.9 request type ('\x00')
+178.79.139.171 - - [09/Feb/2025 19:15:52] "\x00\x1e\x00\x06\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x07version\x04bind\x00\x00\x10\x00\x03" HTTPStatus.BAD_REQUEST -
+178.79.139.171 - - [09/Feb/2025 19:15:52] code 400, message Bad request syntax ('HELP')
+178.79.139.171 - - [09/Feb/2025 19:15:52] "HELP" HTTPStatus.BAD_REQUEST -
+178.79.139.171 - - [09/Feb/2025 19:15:52] code 400, message Bad request syntax ('\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00')
+178.79.139.171 - - [09/Feb/2025 19:15:52] "\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00" HTTPStatus.BAD_REQUEST -
+178.79.139.171 - - [09/Feb/2025 19:15:52] code 400, message Bad request version ('\x00/\x00')
+178.79.139.171 - - [09/Feb/2025 19:15:52] "\x16\x03\x00\x00i\x01\x00\x00e\x03\x03U\x1c§ärandom1random2random3random4\x00\x00\x0c\x00/\x00" HTTPStatus.BAD_REQUEST -
+178.79.139.171 - - [09/Feb/2025 19:15:52] code 400, message Bad request syntax ('\x00\x00\x00qj\x81n0\x81k¡\x03\x02\x01\x05¢\x03\x02\x01')
+178.79.139.171 - - [09/Feb/2025 19:15:52] "\x00\x00\x00qj\x81n0\x81k¡\x03\x02\x01\x05¢\x03\x02\x01" HTTPStatus.BAD_REQUEST -
+178.79.139.171 - - [09/Feb/2025 19:15:57] code 400, message Bad request version ('0.12\x00')
+178.79.139.171 - - [09/Feb/2025 19:15:57] "\x00\x00\x00¤ÿSMBr\x00\x00\x00\x00\x08\x01@\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00@\x06\x00\x00\x01\x00\x00\x81\x00\x02PC NETWORK PROGRAM 1.0\x00\x02MICROSOFT NETWORKS 1.03\x00\x02MICROSOFT NETWORKS 3.0\x00\x02LANMAN1.0\x00\x02LM1.2X002\x00\x02Samba\x00\x02NT LANMAN 1.0\x00\x02NT LM 0.12\x00" HTTPStatus.BAD_REQUEST -
+178.79.139.171 - - [09/Feb/2025 19:16:02] code 400, message Bad HTTP/0.9 request type ('l\x00')
+178.79.139.171 - - [09/Feb/2025 19:16:02] "l\x00\x0b\x00\x00\x00\x00\x00\x00\x00\x00\x00" HTTPStatus.BAD_REQUEST -
+178.79.139.171 - - [09/Feb/2025 19:16:02] code 400, message Bad request version ('SIP/2.0')
+178.79.139.171 - - [09/Feb/2025 19:16:02] "OPTIONS sip:nm SIP/2.0" HTTPStatus.BAD_REQUEST -
+178.79.139.171 - - [09/Feb/2025 19:16:07] code 400, message Bad HTTP/0.9 request type ('AMQP\x00\x00')
+178.79.139.171 - - [09/Feb/2025 19:16:07] "AMQP\x00\x00\x09\x01" HTTPStatus.BAD_REQUEST -
+178.79.139.171 - - [09/Feb/2025 19:16:21] code 400, message Bad request version ('\x00/\x00')
+178.79.139.171 - - [09/Feb/2025 19:16:21] "\x16\x03\x00\x00i\x01\x00\x00e\x03\x03U\x1c§ärandom1random2random3random4\x00\x00\x0c\x00/\x00" HTTPStatus.BAD_REQUEST -
+178.79.139.171 - - [09/Feb/2025 19:16:28] code 400, message Bad request syntax ('\x0e\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00bbbb0100000001')
+178.79.139.171 - - [09/Feb/2025 19:16:28] "\x0e\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00bbbb0100000001" HTTPStatus.BAD_REQUEST -
+178.79.139.171 - - [09/Feb/2025 19:16:28] code 400, message Bad request syntax ('R\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x0057000000001111070000ffff030000fe03000014001c080a0800000000000000040101010000000001')
+178.79.139.171 - - [09/Feb/2025 19:16:28] "R\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x0057000000001111070000ffff030000fe03000014001c080a0800000000000000040101010000000001" HTTPStatus.BAD_REQUEST -
+164.92.134.31 - - [09/Feb/2025 19:39:51] "GET /request?api_key=22&uid=389399890 HTTP/1.1" 200 -
+164.92.134.31 - - [09/Feb/2025 19:41:43] "GET /request?api_key=22&uid=389399890 HTTP/1.1" 200 -
+164.92.134.31 - - [09/Feb/2025 19:42:29] "GET /request?api_key=22&uid=389399890 HTTP/1.1" 200 -
+164.92.134.31 - - [09/Feb/2025 19:42:36] "GET /request?api_key=22&uid=389399890 HTTP/1.1" 200 -
+164.92.134.31 - - [09/Feb/2025 19:42:43] "GET /request?api_key=22&uid=389399890 HTTP/1.1" 200 -
+164.92.134.31 - - [09/Feb/2025 19:42:52] "GET /request?api_key=22&uid=389399890 HTTP/1.1" 200 -
+164.92.134.31 - - [09/Feb/2025 19:42:59] "GET /request?api_key=22&uid=389399890 HTTP/1.1" 200 -
+164.92.134.31 - - [09/Feb/2025 19:47:55] "GET /request?api_key=22&uid=2115538456 HTTP/1.1" 200 -
+164.92.134.31 - - [09/Feb/2025 19:56:35] "GET /request?api_key=22&uid=10326991410 HTTP/1.1" 200 -
+164.92.134.31 - - [09/Feb/2025 19:56:46] "GET /request?api_key=22&uid=10326991410 HTTP/1.1" 200 -
+164.92.134.31 - - [09/Feb/2025 19:56:53] "GET /request?api_key=22&uid=10326991410 HTTP/1.1" 200 -
+164.92.134.31 - - [09/Feb/2025 19:57:00] "GET /request?api_key=22&uid=10326991410 HTTP/1.1" 200 -
+164.92.134.31 - - [09/Feb/2025 19:57:06] "GET /request?api_key=22&uid=10326991410 HTTP/1.1" 200 -
+164.92.134.31 - - [09/Feb/2025 19:57:14] "GET /request?api_key=22&uid=10326991410 HTTP/1.1" 200 -
+164.92.134.31 - - [09/Feb/2025 19:57:21] "GET /request?api_key=22&uid=10326991410 HTTP/1.1" 200 -
+164.92.134.31 - - [09/Feb/2025 19:57:27] "GET /request?api_key=22&uid=10326991410 HTTP/1.1" 200 -
+164.92.134.31 - - [09/Feb/2025 19:57:54] "GET /request?api_key=22&uid=10326991410 HTTP/1.1" 200 -
+164.92.134.31 - - [09/Feb/2025 19:58:01] "GET /request?api_key=22&uid=10326991410 HTTP/1.1" 200 -
+164.92.134.31 - - [09/Feb/2025 19:58:09] "GET /request?api_key=22&uid=10326991410 HTTP/1.1" 200 -
+164.92.134.31 - - [09/Feb/2025 19:58:16] "GET /request?api_key=22&uid=10326991410 HTTP/1.1" 200 -
+164.92.134.31 - - [09/Feb/2025 19:58:23] "GET /request?api_key=22&uid=10326991410 HTTP/1.1" 200 -
+164.92.134.31 - - [09/Feb/2025 19:58:30] "GET /request?api_key=22&uid=10326991410 HTTP/1.1" 200 -
+164.92.134.31 - - [09/Feb/2025 19:58:37] "GET /request?api_key=22&uid=10326991410 HTTP/1.1" 200 -
+164.92.134.31 - - [09/Feb/2025 19:58:44] "GET /request?api_key=22&uid=10326991410 HTTP/1.1" 200 -
+164.92.134.31 - - [09/Feb/2025 19:58:50] "GET /request?api_key=22&uid=10326991410 HTTP/1.1" 200 -
+164.92.134.31 - - [09/Feb/2025 19:58:59] "GET /request?api_key=22&uid=10326991410 HTTP/1.1" 200 -
+164.92.134.31 - - [09/Feb/2025 19:59:11] "GET /request?api_key=22&uid=10326991410 HTTP/1.1" 200 -
+164.92.134.31 - - [09/Feb/2025 19:59:19] "GET /request?api_key=22&uid=10326991410 HTTP/1.1" 200 -
+164.92.134.31 - - [09/Feb/2025 20:04:05] "GET /request?api_key=22&uid=10326991410 HTTP/1.1" 200 -
+164.92.134.31 - - [09/Feb/2025 20:10:36] "GET /request?api_key=22&uid=389399890 HTTP/1.1" 200 -
+164.92.134.31 - - [09/Feb/2025 20:46:37] "GET /request?api_key=22&uid=1913781870 HTTP/1.1" 200 -
+164.92.134.31 - - [09/Feb/2025 21:37:34] "GET /request?api_key=22&uid=603983490 HTTP/1.1" 200 -
+164.92.134.31 - - [09/Feb/2025 21:47:22] "GET /request?api_key=22&uid=11086949035 HTTP/1.1" 200 -
+164.92.134.31 - - [10/Feb/2025 06:28:48] "GET /request?api_key=22&uid=2105543081 HTTP/1.1" 200 -
+164.92.134.31 - - [10/Feb/2025 11:26:30] "GET /request?api_key=22&uid=921997793 HTTP/1.1" 200 -
+164.92.134.31 - - [10/Feb/2025 13:08:29] "GET /request?api_key=22&uid=10927981372 HTTP/1.1" 200 -
+164.92.134.31 - - [10/Feb/2025 14:09:59] "GET /request?api_key=22&uid=9577777831 HTTP/1.1" 200 -
+164.92.134.31 - - [10/Feb/2025 16:33:44] "GET /request?api_key=22&uid=2105543081 HTTP/1.1" 200 -
+65.49.1.97 - - [10/Feb/2025 17:40:05] code 400, message Bad HTTP/0.9 request type ('W\x00\x00\x00\x00\x11\x11\x07\x00\x00ÿÿ\x03\x00\x00þ\x03\x00\x00\x14\x00')
+65.49.1.97 - - [10/Feb/2025 17:40:05] "W\x00\x00\x00\x00\x11\x11\x07\x00\x00ÿÿ\x03\x00\x00þ\x03\x00\x00\x14\x00\x1c\x08" HTTPStatus.BAD_REQUEST -
+172.170.166.238 - - [10/Feb/2025 18:01:47] code 400, message Bad request syntax ('MGLNDD_164.92.134.31_5007')
+172.170.166.238 - - [10/Feb/2025 18:01:47] "MGLNDD_164.92.134.31_5007" HTTPStatus.BAD_REQUEST -
+164.92.134.31 - - [10/Feb/2025 18:42:39] "GET /request?api_key=22&uid=9175464516 HTTP/1.1" 200 -
+8.219.63.195 - - [10/Feb/2025 19:19:40] code 400, message Bad HTTP/0.9 request type ('W\x00\x00\x00\x00\x11\x11\x07\x00\x00ÿÿ\x03\x00\x00þ\x03\x00\x00\x14\x00')
+8.219.63.195 - - [10/Feb/2025 19:19:40] "W\x00\x00\x00\x00\x11\x11\x07\x00\x00ÿÿ\x03\x00\x00þ\x03\x00\x00\x14\x00\x1c\x08" HTTPStatus.BAD_REQUEST -
+8.219.63.195 - - [10/Feb/2025 19:19:46] "GET / HTTP/1.0" 404 -
+8.219.63.195 - - [10/Feb/2025 19:19:46] "GET / HTTP/1.1" 404 -
+8.219.63.195 - - [10/Feb/2025 19:19:46] "GET /favicon.ico HTTP/1.1" 404 -
+164.92.134.31 - - [10/Feb/2025 19:34:43] "GET /request?api_key=22&uid=9175464516 HTTP/1.1" 200 -
+164.92.134.31 - - [10/Feb/2025 19:35:53] "GET /request?api_key=22&uid=9175464516 HTTP/1.1" 200 -
+164.92.134.31 - - [10/Feb/2025 21:36:36] "GET /request?api_key=22&uid=7026499603 HTTP/1.1" 200 -
+164.92.134.31 - - [10/Feb/2025 21:37:32] "GET /request?api_key=22&uid=9886089128 HTTP/1.1" 200 -
+164.92.134.31 - - [10/Feb/2025 21:37:46] "GET /request?api_key=22&uid=292478472 HTTP/1.1" 200 -
+164.92.134.31 - - [10/Feb/2025 21:38:02] "GET /request?api_key=22&uid=6798938632 HTTP/1.1" 200 -
+164.92.134.31 - - [10/Feb/2025 21:38:41] "GET /request?api_key=22&uid=2545612612 HTTP/1.1" 200 -
+164.92.134.31 - - [10/Feb/2025 23:45:42] "GET /request?api_key=22&uid=2487776940 HTTP/1.1" 200 -
+164.92.134.31 - - [11/Feb/2025 11:25:19] "GET /request?api_key=22&uid=1506267369 HTTP/1.1" 200 -
+164.92.134.31 - - [11/Feb/2025 11:35:31] "GET /request?api_key=22&uid=2325297873 HTTP/1.1" 200 -
+164.92.134.31 - - [11/Feb/2025 11:48:04] "GET /request?api_key=22&uid=9595131760 HTTP/1.1" 200 -
+164.92.134.31 - - [11/Feb/2025 14:17:43] "GET /request?api_key=22&uid=2055347422 HTTP/1.1" 200 -
+65.49.20.92 - - [11/Feb/2025 16:17:48] code 400, message Bad HTTP/0.9 request type ('W\x00\x00\x00\x00\x11\x11\x07\x00\x00ÿÿ\x03\x00\x00þ\x03\x00\x00\x14\x00')
+65.49.20.92 - - [11/Feb/2025 16:17:48] "W\x00\x00\x00\x00\x11\x11\x07\x00\x00ÿÿ\x03\x00\x00þ\x03\x00\x00\x14\x00\x1c\x08" HTTPStatus.BAD_REQUEST -
+164.92.134.31 - - [11/Feb/2025 17:54:32] "GET /request?api_key=22&uid=3606200234 HTTP/1.1" 200 -
+164.92.134.31 - - [11/Feb/2025 19:48:02] "GET /request?api_key=22&uid=7630261174 HTTP/1.1" 200 -
+164.92.134.31 - - [11/Feb/2025 22:26:23] "GET /request?api_key=22&uid=4208755685 HTTP/1.1" 200 -
+164.92.134.31 - - [12/Feb/2025 01:28:32] "GET /request?api_key=22&uid=122785764 HTTP/1.1" 200 -
+164.92.134.31 - - [12/Feb/2025 15:30:26] "GET /request?api_key=22&uid=10862762768 HTTP/1.1" 200 -
+216.218.206.66 - - [12/Feb/2025 16:03:44] code 400, message Bad HTTP/0.9 request type ('W\x00\x00\x00\x00\x11\x11\x07\x00\x00ÿÿ\x03\x00\x00þ\x03\x00\x00\x14\x00')
+216.218.206.66 - - [12/Feb/2025 16:03:44] "W\x00\x00\x00\x00\x11\x11\x07\x00\x00ÿÿ\x03\x00\x00þ\x03\x00\x00\x14\x00\x1c\x08" HTTPStatus.BAD_REQUEST -
+164.92.134.31 - - [12/Feb/2025 17:02:39] "GET /request?api_key=22&uid=1033819667 HTTP/1.1" 200 -
+164.92.134.31 - - [12/Feb/2025 20:03:58] "GET /request?api_key=22&uid=266482213 HTTP/1.1" 200 -
+164.92.134.31 - - [12/Feb/2025 20:27:05] "GET /request?api_key=22&uid=1227272182 HTTP/1.1" 200 -
+164.92.134.31 - - [12/Feb/2025 20:27:45] "GET /request?api_key=22&uid=1667138902 HTTP/1.1" 200 -
+164.92.134.31 - - [12/Feb/2025 20:49:12] "GET /request?api_key=22&uid=9935161465 HTTP/1.1" 200 -
+164.92.134.31 - - [12/Feb/2025 21:29:09] "GET /request?api_key=22&uid=2173187088 HTTP/1.1" 200 -
+164.92.134.31 - - [12/Feb/2025 21:29:21] "GET /request?api_key=22&uid=1662890729 HTTP/1.1" 200 -
+164.92.134.31 - - [12/Feb/2025 21:30:05] "GET /request?api_key=22&uid=2173187088 HTTP/1.1" 200 -
+172.233.58.223 - - [13/Feb/2025 10:47:39] "GET / HTTP/1.0" 404 -
+172.233.58.223 - - [13/Feb/2025 10:47:39] "OPTIONS / HTTP/1.0" 404 -
+172.233.58.223 - - [13/Feb/2025 10:47:39] code 400, message Bad request version ('RTSP/1.0')
+172.233.58.223 - - [13/Feb/2025 10:47:39] "OPTIONS / RTSP/1.0" HTTPStatus.BAD_REQUEST -
+172.233.58.223 - - [13/Feb/2025 10:47:45] code 400, message Bad request version ('\x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+172.233.58.223 - - [13/Feb/2025 10:47:45] "\x80\x00\x00(rþ\x1d\x13\x00\x00\x00\x00\x00\x00\x00\x02\x00\x01\x86 \x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00" HTTPStatus.BAD_REQUEST -
+172.233.58.223 - - [13/Feb/2025 10:47:50] code 400, message Bad HTTP/0.9 request type ('\x00')
+172.233.58.223 - - [13/Feb/2025 10:47:50] "\x00\x1e\x00\x06\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x07version\x04bind\x00\x00\x10\x00\x03" HTTPStatus.BAD_REQUEST -
+172.233.58.223 - - [13/Feb/2025 10:47:50] code 400, message Bad request syntax ('HELP')
+172.233.58.223 - - [13/Feb/2025 10:47:50] "HELP" HTTPStatus.BAD_REQUEST -
+172.233.58.223 - - [13/Feb/2025 10:47:50] code 400, message Bad request syntax ('\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00')
+172.233.58.223 - - [13/Feb/2025 10:47:50] "\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00" HTTPStatus.BAD_REQUEST -
+172.233.58.223 - - [13/Feb/2025 10:47:50] code 400, message Bad request version ('\x00/\x00')
+172.233.58.223 - - [13/Feb/2025 10:47:50] "\x16\x03\x00\x00i\x01\x00\x00e\x03\x03U\x1c§ärandom1random2random3random4\x00\x00\x0c\x00/\x00" HTTPStatus.BAD_REQUEST -
+172.233.58.223 - - [13/Feb/2025 10:47:50] code 400, message Bad request syntax ('\x00\x00\x00qj\x81n0\x81k¡\x03\x02\x01\x05¢\x03\x02\x01')
+172.233.58.223 - - [13/Feb/2025 10:47:50] "\x00\x00\x00qj\x81n0\x81k¡\x03\x02\x01\x05¢\x03\x02\x01" HTTPStatus.BAD_REQUEST -
+172.233.58.223 - - [13/Feb/2025 10:47:55] code 400, message Bad request version ('0.12\x00')
+172.233.58.223 - - [13/Feb/2025 10:47:55] "\x00\x00\x00¤ÿSMBr\x00\x00\x00\x00\x08\x01@\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00@\x06\x00\x00\x01\x00\x00\x81\x00\x02PC NETWORK PROGRAM 1.0\x00\x02MICROSOFT NETWORKS 1.03\x00\x02MICROSOFT NETWORKS 3.0\x00\x02LANMAN1.0\x00\x02LM1.2X002\x00\x02Samba\x00\x02NT LANMAN 1.0\x00\x02NT LM 0.12\x00" HTTPStatus.BAD_REQUEST -
+172.233.58.223 - - [13/Feb/2025 10:48:00] code 400, message Bad HTTP/0.9 request type ('l\x00')
+172.233.58.223 - - [13/Feb/2025 10:48:00] "l\x00\x0b\x00\x00\x00\x00\x00\x00\x00\x00\x00" HTTPStatus.BAD_REQUEST -
+172.233.58.223 - - [13/Feb/2025 10:48:01] code 400, message Bad request version ('SIP/2.0')
+172.233.58.223 - - [13/Feb/2025 10:48:01] "OPTIONS sip:nm SIP/2.0" HTTPStatus.BAD_REQUEST -
+164.92.134.31 - - [13/Feb/2025 10:48:01] "GET /request?api_key=22&uid=10853443433 HTTP/1.1" 200 -
+172.233.58.223 - - [13/Feb/2025 10:48:06] code 400, message Bad HTTP/0.9 request type ('AMQP\x00\x00')
+172.233.58.223 - - [13/Feb/2025 10:48:06] "AMQP\x00\x00\x09\x01" HTTPStatus.BAD_REQUEST -
+172.233.58.223 - - [13/Feb/2025 10:48:15] code 400, message Bad request version ('\x00/\x00')
+172.233.58.223 - - [13/Feb/2025 10:48:15] "\x16\x03\x00\x00i\x01\x00\x00e\x03\x03U\x1c§ärandom1random2random3random4\x00\x00\x0c\x00/\x00" HTTPStatus.BAD_REQUEST -
+172.233.58.223 - - [13/Feb/2025 10:48:20] "GET / HTTP/1.1" 404 -
+172.233.58.223 - - [13/Feb/2025 10:48:25] code 400, message Bad request version ("³¤C\x9dö¾Þ²ÇA\x9d\x8b²åúCyN¤yk½\x94\x87%\x9a´©T\x84Ó©\x00\x9c\x13\x02\x13\x03\x13\x01\x003\x009\x005\x00/À,À0\x00£\x00\x9fÌ©Ì¨ÌªÀ¯À\xadÀ£À\x9fÀ]ÀaÀWÀSÀ+À/\x00¢\x00\x9eÀ®À¬À¢À\x9eÀ\\À`ÀVÀRÀ$À(\x00k\x00jÀsÀw\x00Ä\x00ÃÀ#À'\x00g\x00@ÀrÀv\x00¾\x00½À")
+172.233.58.223 - - [13/Feb/2025 10:48:25] "\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03Ý¤\x09\x10 +abbÔð]%¥´\x18Æâ2µû{àü\x7fÍwÈü\x03\x8f\x19 ³¤C\x9dö¾Þ²ÇA\x9d\x8b²åúCyN¤yk½\x94\x87%\x9a´©T\x84Ó©\x00\x9c\x13\x02\x13\x03\x13\x01\x003\x009\x005\x00/À,À0\x00£\x00\x9fÌ©Ì¨ÌªÀ¯À­À£À\x9fÀ]ÀaÀWÀSÀ+À/\x00¢\x00\x9eÀ®À¬À¢À\x9eÀ\\À`ÀVÀRÀ$À(\x00k\x00jÀsÀw\x00Ä\x00ÃÀ#À'\x00g\x00@ÀrÀv\x00¾\x00½À" HTTPStatus.BAD_REQUEST -
+172.233.58.223 - - [13/Feb/2025 10:48:27] code 400, message Bad request syntax ('\x0e\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00bbbb0100000001')
+172.233.58.223 - - [13/Feb/2025 10:48:27] "\x0e\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00bbbb0100000001" HTTPStatus.BAD_REQUEST -
+172.233.58.223 - - [13/Feb/2025 10:48:27] code 400, message Bad request syntax ('R\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x0057000000001111070000ffff030000fe03000014001c080a0800000000000000040101010000000001')
+172.233.58.223 - - [13/Feb/2025 10:48:27] "R\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x0057000000001111070000ffff030000fe03000014001c080a0800000000000000040101010000000001" HTTPStatus.BAD_REQUEST -
+164.92.134.31 - - [13/Feb/2025 14:36:36] "GET /request?api_key=22&uid=2487776940 HTTP/1.1" 200 -
+164.92.134.31 - - [13/Feb/2025 14:44:45] "GET /request?api_key=22&uid=1679065590 HTTP/1.1" 200 -
+164.92.134.31 - - [13/Feb/2025 16:13:28] "GET /request?api_key=22&uid=3237342724 HTTP/1.1" 200 -
+164.92.134.31 - - [13/Feb/2025 16:14:07] "GET /request?api_key=22&uid=3237342724 HTTP/1.1" 200 -
+164.92.134.31 - - [13/Feb/2025 16:14:33] "GET /request?api_key=22&uid=3237342724 HTTP/1.1" 200 -
+164.92.134.31 - - [13/Feb/2025 16:14:50] "GET /request?api_key=22&uid=3237342724 HTTP/1.1" 200 -
+164.92.134.31 - - [13/Feb/2025 16:15:09] "GET /request?api_key=22&uid=3237342724 HTTP/1.1" 200 -
+164.92.134.31 - - [13/Feb/2025 16:16:56] "GET /request?api_key=22&uid=3237342724 HTTP/1.1" 200 -
+164.92.134.31 - - [13/Feb/2025 16:17:11] "GET /request?api_key=22&uid=3237342724 HTTP/1.1" 200 -
+164.92.134.31 - - [13/Feb/2025 17:45:09] "GET /request?api_key=22&uid=2325297873 HTTP/1.1" 200 -
+164.92.134.31 - - [13/Feb/2025 17:49:35] "GET /request?api_key=22&uid=2325297873 HTTP/1.1" 200 -
+164.92.134.31 - - [13/Feb/2025 17:49:44] "GET /request?api_key=22&uid=2325297873 HTTP/1.1" 200 -
+164.92.134.31 - - [13/Feb/2025 17:49:50] "GET /request?api_key=22&uid=2325297873 HTTP/1.1" 200 -
+164.92.134.31 - - [13/Feb/2025 17:50:26] "GET /request?api_key=22&uid=2325297873 HTTP/1.1" 200 -
+164.92.134.31 - - [13/Feb/2025 17:51:11] "GET /request?api_key=22&uid=2325297873 HTTP/1.1" 200 -
+164.92.134.31 - - [13/Feb/2025 17:51:19] "GET /request?api_key=22&uid=2325297873 HTTP/1.1" 200 -
+164.92.134.31 - - [13/Feb/2025 17:51:26] "GET /request?api_key=22&uid=2325297873 HTTP/1.1" 200 -
+164.92.134.31 - - [13/Feb/2025 17:51:33] "GET /request?api_key=22&uid=2325297873 HTTP/1.1" 200 -
+65.49.20.104 - - [13/Feb/2025 19:13:42] code 400, message Bad HTTP/0.9 request type ('W\x00\x00\x00\x00\x11\x11\x07\x00\x00ÿÿ\x03\x00\x00þ\x03\x00\x00\x14\x00')
+65.49.20.104 - - [13/Feb/2025 19:13:42] "W\x00\x00\x00\x00\x11\x11\x07\x00\x00ÿÿ\x03\x00\x00þ\x03\x00\x00\x14\x00\x1c\x08" HTTPStatus.BAD_REQUEST -
+164.92.134.31 - - [13/Feb/2025 20:00:33] "GET /request?api_key=22&uid=6807003997 HTTP/1.1" 200 -
+164.92.134.31 - - [13/Feb/2025 20:08:47] "GET /request?api_key=22&uid=652131021 HTTP/1.1" 200 -
+164.92.134.31 - - [13/Feb/2025 21:20:55] "GET /request?api_key=22&uid=2805386166 HTTP/1.1" 200 -
+164.92.134.31 - - [13/Feb/2025 21:21:20] "GET /request?api_key=22&uid=2805386166 HTTP/1.1" 200 -
+164.92.134.31 - - [13/Feb/2025 21:21:28] "GET /request?api_key=22&uid=2805386166 HTTP/1.1" 200 -
+164.92.134.31 - - [13/Feb/2025 21:21:34] "GET /request?api_key=22&uid=2805386166 HTTP/1.1" 200 -
+164.92.134.31 - - [13/Feb/2025 21:22:09] "GET /request?api_key=22&uid=2805386166 HTTP/1.1" 200 -
+164.92.134.31 - - [13/Feb/2025 21:22:26] "GET /request?api_key=22&uid=6903960518 HTTP/1.1" 200 -
+164.92.134.31 - - [13/Feb/2025 21:23:08] "GET /request?api_key=22&uid=6903960518 HTTP/1.1" 200 -
+164.92.134.31 - - [13/Feb/2025 21:23:15] "GET /request?api_key=22&uid=6903960518 HTTP/1.1" 200 -
+164.92.134.31 - - [13/Feb/2025 21:23:22] "GET /request?api_key=22&uid=6903960518 HTTP/1.1" 200 -
+164.92.134.31 - - [13/Feb/2025 21:57:50] "GET /request?api_key=22&uid=2487776940 HTTP/1.1" 200 -
+164.92.134.31 - - [13/Feb/2025 22:53:52] "GET /request?api_key=22&uid=6828384825 HTTP/1.1" 200 -
+164.92.134.31 - - [13/Feb/2025 23:10:49] "GET /request?api_key=22&uid=834155820 HTTP/1.1" 200 -
+104.40.49.212 - - [14/Feb/2025 00:18:40] code 400, message Bad request syntax ('MGLNDD_164.92.134.31_5007')
+104.40.49.212 - - [14/Feb/2025 00:18:40] "MGLNDD_164.92.134.31_5007" HTTPStatus.BAD_REQUEST -
+164.92.134.31 - - [14/Feb/2025 10:54:37] "GET /request?api_key=22&uid=272034062 HTTP/1.1" 200 -
+164.92.134.31 - - [14/Feb/2025 12:54:27] "GET /request?api_key=22&uid=3364155211 HTTP/1.1" 200 -
+164.92.134.31 - - [14/Feb/2025 13:15:06] "GET /request?api_key=22&uid=3364155211 HTTP/1.1" 200 -
+164.92.134.31 - - [14/Feb/2025 13:16:27] "GET /request?api_key=22&uid=2450666521 HTTP/1.1" 200 -
+164.92.134.31 - - [14/Feb/2025 15:16:14] "GET /request?api_key=22&uid=2330036667 HTTP/1.1" 200 -
+164.92.134.31 - - [14/Feb/2025 16:47:12] "GET /request?api_key=22&uid=4898113951 HTTP/1.1" 200 -
+164.92.134.31 - - [14/Feb/2025 17:09:51] "GET /request?api_key=22&uid=551643979 HTTP/1.1" 200 -
+164.92.134.31 - - [14/Feb/2025 17:45:35] "GET /request?api_key=22&uid=1073635066 HTTP/1.1" 200 -
+64.62.197.23 - - [14/Feb/2025 18:15:41] code 400, message Bad HTTP/0.9 request type ('W\x00\x00\x00\x00\x11\x11\x07\x00\x00ÿÿ\x03\x00\x00þ\x03\x00\x00\x14\x00')
+64.62.197.23 - - [14/Feb/2025 18:15:41] "W\x00\x00\x00\x00\x11\x11\x07\x00\x00ÿÿ\x03\x00\x00þ\x03\x00\x00\x14\x00\x1c\x08" HTTPStatus.BAD_REQUEST -
+164.92.134.31 - - [14/Feb/2025 19:08:17] "GET /request?api_key=22&uid=7114742544 HTTP/1.1" 200 -
+164.92.134.31 - - [14/Feb/2025 20:27:08] "GET /request?api_key=22&uid=2001150755 HTTP/1.1" 200 -
