@@ -1,7 +1,0 @@
-syntax = "proto3";
-
-message FriendRequest {
-    int64 sender_uid = 1;
-    int64 receiver_uid = 2;
-    string region = 3;
-}
