@@ -161,12 +161,12 @@ def decode_protobuf(binary):
         app.logger.error(f"Unexpected error during protobuf decoding: {e}")
         return None
 
-@app.route('/like', methods=['GET'])
+@app.route('likesff', methods=['GET'])
 def handle_requests():
-    uid = request.args.get("uid")
+    uid = request.args.get("id")
     server_name = request.args.get("server_name", "").upper()
     if not uid or not server_name:
-        return jsonify({"error": "UID and server_name are required"}), 400
+        return jsonify({"error": "id and server_name are required"}), 400
 
     try:
         def process_request():
@@ -214,8 +214,8 @@ def handle_requests():
             except Exception as e:
                 raise Exception(f"Error converting 'after' protobuf to JSON: {e}")
             data_after = json.loads(jsone_after)
-            after_like = int(data_after.get('AccountInfo', {}).get('Likes', 0))
-            player_uid = int(data_after.get('AccountInfo', {}).get('UID', 0))
+            after_like = int(data_after.get('AccountInfo', {}).get('likesff', 0))
+            player_uid = int(data_after.get('AccountInfo', {}).get('id', 0))
             player_name = str(data_after.get('AccountInfo', {}).get('PlayerNickname', ''))
             like_given = after_like - before_like
             status = 1 if like_given != 0 else 2
