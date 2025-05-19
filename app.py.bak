@@ -72,7 +72,7 @@ async def like(id, session, token):
     like_url = 'https://clientbp.ggblueshark.com/LikeProfile'
     headers = {
         'X-Unity-Version': '2018.4.11f1',
-        'ReleaseVersion': 'OB48',
+        'ReleaseVersion': 'OB47',
         'Content-Type': 'application/x-www-form-urlencoded',
         'X-GA': 'v1 1',
         'Authorization': f'Bearer {token}',

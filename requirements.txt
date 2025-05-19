@@ -1,4 +1,6 @@
-Flask
-requests
-protobuf
+flask
+asyncio
+aiohttp
 pycryptodome
+protobuf
+requests
